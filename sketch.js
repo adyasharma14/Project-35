@@ -58,6 +58,10 @@ function draw() {
     milk1.visible = false;
    }
   }
+	  if(foodS == 0){
+    dog.addImage(dogImage);
+    foodS = 20;
+  }
  
   //add styles here
   drawSprites();
